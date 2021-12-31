@@ -1,4 +1,4 @@
-//TODO use a better icon than script
+//TODO make a proper logo & use instead of 'script' icon
 
 function onGmailMessageOpen(e) {
   // Activate temporary Gmail scopes, in this case to allow
@@ -27,8 +27,7 @@ function onGmailMessageOpen(e) {
     .setTitle("Messages in new thread");
   for (const m of threadMessages) {
     if (!m.isInTrash())
-      input.addItem(m.getFrom() + " at " + formatDate(m.getDate()), m.getId(), m.getId() == messageId);
-    //TODO select the last item by default
+      input.addItem(m.getFrom() + " at " + formatDate(m.getDate()), m.getId(), m.getId() == messageId); //TODO select the selected item by default (currently doesn't work, not sure why)
   }
 
   const defaultSubject = thread.getFirstMessageSubject() + ' (Split)';
@@ -44,15 +43,16 @@ function onGmailMessageOpen(e) {
         .setOnClickAction(CardService.newAction()
           .setFunctionName('onSplitThreadButtonClick'))));
 
+  //TODO add button to auto-split all messages (if 3 messages or more)
+
   var builder = CardService.newCardBuilder()
     .addSection(section);
   return builder.build();
 }
 
 function onSplitThreadButtonClick(e) {
-  //TODO is this required?
   var accessToken = e.gmail.accessToken;
-  GmailApp.setCurrentMessageAccessToken(accessToken);
+  GmailApp.setCurrentMessageAccessToken(accessToken); //TODO is this required?
 
   var subject = e.formInput.subject;
   if (subject.length == 0)
@@ -75,7 +75,7 @@ function onSplitThreadButtonClick(e) {
         .addSection(CardService.newCardSection()
           .addWidget(CardService.newTextParagraph()
             .setText(text)))
-        .build()));
+        .build())); //TODO add buttons on confirmation message to open new thread / refresh this thread
   return actionResponse.build();
 }
 
@@ -100,6 +100,7 @@ function splitThread(subject, messageIds) {
       name: m.getFrom(),
       replyTo: replyTo
     });
+    //TODO find new email & add the same inbox/folders/labels as existing message
     m.moveToTrash();
   }
 }
