@@ -1,5 +1,3 @@
-//TODO make a proper logo & use instead of 'script' icon
-
 function onGmailMessageOpen(e) {
   // Activate temporary Gmail scopes, in this case to allow
   // the add-on to read message metadata and content.
