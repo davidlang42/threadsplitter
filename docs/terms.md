@@ -5,6 +5,6 @@ The full source code of ThreadSplitter can be found at: [https://github.com/davi
 
 ThreadSplitter is hosted in Google's Apps Scripts environment, so your data is only stored in your GMail account and never leaves Google's servers.
 
-As always, you are bound by Google’s [terms of service](https://policies.google.com/terms?hl=en-US) in using the Google Tasks ecosystem.
+As always, you are bound by Google’s [terms of service](https://policies.google.com/terms?hl=en-US) in using the GMail ecosystem.
 
 Back to [home page](index.md).
