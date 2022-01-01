@@ -13,4 +13,4 @@ The data which is used by ThreadSplitter is listed, and described below.
 The scopes which are required by ThreadSplitter are listed, and described below.
 * [https://www.googleapis.com/auth/gmail.addons.execute](https://www.googleapis.com/auth/gmail.addons.execute) - This allows the ThreadSplitter add-on to run in the sidebar of Gmail.
 
-Back to [home page](home.md).
+Back to [home page](index.md).

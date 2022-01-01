@@ -7,4 +7,4 @@ ThreadSplitter is hosted in Google's Apps Scripts environment, so your data is o
 
 As always, you are bound by Google’s [terms of service](https://policies.google.com/terms?hl=en-US) in using the Google Tasks ecosystem.
 
-Back to [home page](home.md).
+Back to [home page](index.md).

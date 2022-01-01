@@ -5,8 +5,6 @@ GMail conversation threads are great, but sometimes stupid companies send you mu
 
 The add-on is hosted directly on Google Apps Script, free for anyone to use: (Google Workspace add-on url TBA)
 
-But by all means, [buy me a coffee](https://ko-fi.com/davidlang42).
-
 ## Fine print
 
 Your emails are only stored in GMail, your data does not leave Google's servers.
