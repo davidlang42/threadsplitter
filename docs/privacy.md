@@ -19,6 +19,6 @@ The scopes which are required by ThreadSplitter are listed, and described below.
 
 ## Limited Use disclosure
 
-ThreadSplitter's use and transfer to any other app of information received from Google APLs will adhere to the [https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes](Google API Services User Data Policy), including the Limited Use requirements.
+ThreadSplitter's use and transfer to any other app of information received from Google APLs will adhere to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes), including the Limited Use requirements.
 
 Back to [home page](index.md).
