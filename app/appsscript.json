@@ -1,9 +1,12 @@
 {
   "timeZone": "Australia/Sydney",
-  "dependencies": {
-  },
   "exceptionLogging": "STACKDRIVER",
   "runtimeVersion": "V8",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/userinfo.email",
+    "https://www.googleapis.com/auth/gmail.addons.execute",
+    "https://mail.google.com/"
+  ],
   "addOns": {
     "common": {
       "name": "Thread Splitter",

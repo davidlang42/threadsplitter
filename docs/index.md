@@ -1,5 +1,5 @@
 # Home
-An add-on to split GMail threads.
+An add-on to split Gmail threads.
 
 Gmail conversation threads are great, but sometimes you get multiple emails about different things (eg. different orders) with an identical subject line, which Gmail automatically makes into threads. This add-on lets you split those emails into separate threads when required.
 
