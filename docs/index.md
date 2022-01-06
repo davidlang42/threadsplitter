@@ -9,7 +9,7 @@ The add-on is hosted directly on Google Apps Script, free for anyone to use: (Go
 
 ## Fine print
 
-Your emails are only stored in GMail, your data does not leave Google's servers.
+Your emails are only stored in Gmail, your data does not leave Google's servers.
 * Read more on the [privacy](privacy.md) and [terms of service](terms.md) pages.
 
 If you like ThreadSplitter, feel free to [buy me a coffee](https://ko-fi.com/davidlang42).
