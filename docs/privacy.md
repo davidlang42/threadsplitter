@@ -14,7 +14,7 @@ The data which is used by ThreadSplitter is listed, and described below.
 
 The scopes which are required by ThreadSplitter are listed, and described below.
 * [https://www.googleapis.com/auth/gmail.addons.execute](https://www.googleapis.com/auth/gmail.addons.execute) - This allows the ThreadSplitter add-on to run in the sidebar of Gmail.
-* [https://mail.google.com/](https://mail.google.com/) - This technically allows the ThreadSplitter add-on to read, send and delete all of your emails, but in practise only the messages in the current Gmail thread are read when you open the add-on. Any messages you select in the add-on will be forwarded to you to create a separate thread, and then the messages which were forwarded will be deleted from the current thread.
+* [https://www.googleapis.com/auth/gmail.modify](https://www.googleapis.com/auth/gmail.modify) - This technically allows the ThreadSplitter add-on to read, send and delete all of your emails, but in practise only the messages in the current Gmail thread are read when you open the add-on. Any messages you select in the add-on will be forwarded to you to create a separate thread, and then the messages which were forwarded will be deleted from the current thread.
 * [https://www.googleapis.com/auth/userinfo.email](https://www.googleapis.com/auth/userinfo.email) - This provides the ThreadSplitter add-on with the email address of your Google account. This is the email address which your emails will get forwarded to when split, as described above.
 
 ## Limited Use disclosure

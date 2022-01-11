@@ -5,7 +5,7 @@
   "oauthScopes": [
     "https://www.googleapis.com/auth/userinfo.email",
     "https://www.googleapis.com/auth/gmail.addons.execute",
-    "https://mail.google.com/"
+    "https://www.googleapis.com/auth/gmail.modify"
   ],
   "addOns": {
     "common": {
