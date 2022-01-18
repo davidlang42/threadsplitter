@@ -3,7 +3,7 @@ An add-on to split Gmail threads.
 
 Gmail conversation threads are great, but sometimes you get multiple emails about different things (eg. different orders) with an identical subject line, which Gmail automatically makes into threads. This add-on lets you split those emails into separate threads when required.
 
-The add-on is hosted directly on Google Apps Script, free for anyone to use: (Google Workspace add-on url TBA)
+The add-on is hosted directly on Google Apps Script, free for anyone to use: [https://workspace.google.com/marketplace/app/threadsplitter/115246410861](https://workspace.google.com/marketplace/app/threadsplitter/115246410861)
 
 But by all means, [buy me a coffee](https://ko-fi.com/davidlang42).
 
